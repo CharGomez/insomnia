@@ -1,0 +1,28 @@
+_id: req_0698f2ae64ca4cab9d9555a57e366a7d
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1666801652223
+created: 1666740809239
+url: https://credid.net/wstest/api/Reporte?cedula=801480559
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_0fbc7c6e0de84cdfbc2756a497fc0fe7
+    name: Authorization
+    value: 097B4E36-D9E7-4FA3-8B34-28D6C68EEE67
+    description: ""
+authentication:
+  type: bearer
+  token: 097B4E36-D9E7-4FA3-8B34-28D6C68EEE67
+  disabled: true
+metaSortKey: -1666740809239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

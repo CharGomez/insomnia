@@ -1,0 +1,24 @@
+_id: req_f3bff403b5c141ff8d56e145aad9f5ab
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1666735727950
+created: 1666734374556
+url: http://localhost:3030/v1/payouts/admin/summary
+name: Admin - payouts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJHVOdkFKR2RWOHhMdGR3b25SWUJ1U2ckQUhWSnRUTlZ0N1oyT3RTWTFkNjkzWEVRQXZqcDJFeUMyMG1tK3E4U3Q1cyIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjY2NzM1NzIxLCJleHAiOjE2NjY3NDI5MjF9.UVDbwss5yifLgjOwwsSC-otI0YatyRgofVMo6FmOKGM
+  disabled: false
+metaSortKey: -1666734374556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

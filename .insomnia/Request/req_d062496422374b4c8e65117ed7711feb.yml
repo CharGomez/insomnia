@@ -1,0 +1,73 @@
+_id: req_d062496422374b4c8e65117ed7711feb
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1669758717314
+created: 1667273834703
+url: "{{ _.baseUrl }}/v1/toroso/NotifyIncomingTransfers"
+name: TOROS NOTI
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"OnvoIntegrationMode": "live",
+    	"HostId": null,
+    	"HostInfo": {
+    		"DateFormat": "dd-MM-yyyy hh:mm:ss tt",
+    		"SystemCode": "3",
+    		"ChannelCode": "TS",
+    		"ChannelName": "Toroso",
+    		"CompanyCode": "0",
+    		"CountryCode": "CR",
+    		"NumberFormat": "#,#.00",
+    		"OperatorCode": 0,
+    		"OperatorName": "General",
+    		"PercentFormat": "#.00%",
+    		"UTCTimeOffSet": -6,
+    		"ShortDateFormat": "dd-MM-yyyy"
+    	},
+    	"UserCode": null,
+    	"ContextIP": null,
+    	"Transfers": [{
+    		"Amount": 1000,
+    		"Currency": "CRC",
+    		"CustomData": null,
+    		"Description": "***************",
+    		"OriginCustomer": {
+    			"Id": "03-0405-0012",
+    			"Name": "CARLOS GOMEZ GRANADOS",
+    			"Phone": "72940269",
+    			"IdType": 0
+    		},
+    		"SINPERefNumber": "1234562342346903357893456344124",
+    		"AuthorizationDate": "2022-10-05T09:15:30.04",
+    		"DestinationCustomer": {
+    			"Id": "3-101-815764",
+    			"IBAN": "CR83081400011028418099",
+    			"Name": "ONVO PAY S.A",
+    			"Phone": null,
+    			"IdType": 3
+    		}
+    	}],
+    	"CultureCode": null,
+    	"OperationId": "e60a51a7-41cd-47f2-8ce7-cbe523e06467",
+    	"UserSession": null,
+    	"SecurityInfo": "18385d699e62ce86cd1e6b5f880f8e8918ad71b6a3035470b9cb1cd1c8e2bc60583122396bceefa5d76dee035696d3e06083af45fd0c0adec107046fca3189bc",
+    	"ClientIpAddress": "10.60.0.4",
+    	"ServerSessionId": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1667273834703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

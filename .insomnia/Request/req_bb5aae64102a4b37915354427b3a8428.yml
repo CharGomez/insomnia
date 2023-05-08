@@ -1,0 +1,31 @@
+_id: req_bb5aae64102a4b37915354427b3a8428
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1674595842994
+created: 1663310903032
+url: "{{ _.baseUrl }}/v1/consumers/lookup"
+name: Lookup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "charky809@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eb062ca646904c4a8fed19d58cc37435
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+metaSortKey: -1663310903032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

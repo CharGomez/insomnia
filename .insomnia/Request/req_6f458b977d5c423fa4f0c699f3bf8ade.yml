@@ -1,0 +1,43 @@
+_id: req_6f458b977d5c423fa4f0c699f3bf8ade
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1664326673153
+created: 1664325003272
+url: "{{ _.baseUrl }}/v1/accounts/admin/payout-status/cl2bebjtp14687agdp2jyex8u7"
+name: Payout Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"note": "Esto es una nota",
+    	"status": "active"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5456d970d1554aab970b1479b35c0314
+  - id: pair_10f6bf7e5b444dc4ace01a24db9e0af2
+    name: onvo-account-id
+    value: cl7ghuwa6729101k2nfhrk2h8
+    description: ""
+    disabled: true
+  - id: pair_b868ff4f4297427ca93f7b9757c1e640
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJGpQUkdrNWE3OWpPRGJhd1FtL0RvWVEkT0ZXQWNwZkV2blFORkw1ZklLRVRwNTNia1hDWnR0SkwvYU1HZUdoUWlPRSIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjY0MzI1MTIzLCJleHAiOjE2NjQzMzIzMjN9.8FQeOlF9IQSP4hYofZMnX3zQtJZkYnwZ8ZiAajt78-8
+  disabled: false
+metaSortKey: -1663021732685.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

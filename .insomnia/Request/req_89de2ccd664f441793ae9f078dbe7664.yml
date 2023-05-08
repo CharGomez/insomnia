@@ -1,0 +1,40 @@
+_id: req_89de2ccd664f441793ae9f078dbe7664
+type: Request
+parentId: fld_72d3ca9941cc4cf4a84fc3406eb8bb07
+modified: 1670463174171
+created: 1670451291981
+url: "{{ _.baseUrl }}/v1/shoppers/confirm-verification"
+name: confirm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "848758"
+    }
+parameters: []
+headers:
+  - id: pair_ff4dff99ccb6427bab64caa0be28d8c3
+    name: onvo-account-id
+    value: cl2benb7e26255agdp0n0ubpbo
+    description: ""
+  - id: pair_1bc80fa9df734d5eb7653bf3cbff4a42
+    name: onvo-shopper
+    value: 022716e63e78a0e02457d01ddda0e99acbfa76c018c118976894
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_b42ae665bc9e405ebe094d4593afb077
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_qKVWxiIn-qnFod9WFNzj1I6a2OjFmuFCDrhW4wISjh7NcSvv2yBH5bWE_UH-uion1AsyiupVrj0OrLDU37l47w
+metaSortKey: -1670451291981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

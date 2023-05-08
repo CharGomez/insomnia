@@ -1,0 +1,25 @@
+_id: req_2ba5ae9c11984bbdac0ec29c521c7a22
+type: Request
+parentId: fld_040cfaf291f548bca5c6719551a674e2
+modified: 1682382446926
+created: 1682382430296
+url: "{{ _.baseUrl }}/v1/toroso/IsServiceAvailable"
+name: Is Available
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682378181213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

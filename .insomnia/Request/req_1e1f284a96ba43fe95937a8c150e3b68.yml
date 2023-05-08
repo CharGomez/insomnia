@@ -1,0 +1,21 @@
+_id: req_1e1f284a96ba43fe95937a8c150e3b68
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1665466953587
+created: 1665456310392
+url: http://localhost:3001/v1/authors
+name: Test Local
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664708267337.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,53 @@
+_id: req_211184f34a44489daba2cfebd5ce74bc
+type: Request
+parentId: fld_b330cc9a2a1248ba88838ea783569d98
+modified: 1682646780841
+created: 1682627466144
+url: "{{ _.baseUrl }}/v1/customers"
+name: 0. Create Client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": {
+        "city": "Cartago",
+        "country": "CR",
+        "line1": "Vistas de Oreamuno",
+        "line2": null,
+        "postalCode": "30701",
+        "state": "Cartago"
+      },
+      "description": "Char SinpeFlow Client",
+      "email": "char+sinpe@onvopay.com",
+      "name": "Char Sinpe",
+      "phone": "+50672940269",
+      "shipping": {
+        "address": {
+          "city": "Cartago",
+          "country": "CR",
+    	    "line1": "Vistas de Oreamuno",
+          "line2": null,
+        "postalCode": "30701",
+        "state": "Cartago"
+        },
+        "name": "Char Sinpe",
+        "phone": "+50672940269"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_secret_key_mwHZOvTDKkmvSHzgRFKUueFeCUvQvKkVzIXBe8vfk76FvgVsZeUK9ntSpDDXVL-nX4CgFaFGahT81xTX3dJ4-w
+metaSortKey: -1682627466144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

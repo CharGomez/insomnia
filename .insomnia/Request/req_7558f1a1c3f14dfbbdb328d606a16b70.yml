@@ -1,0 +1,46 @@
+_id: req_7558f1a1c3f14dfbbdb328d606a16b70
+type: Request
+parentId: fld_040cfaf291f548bca5c6719551a674e2
+modified: 1683328773817
+created: 1682378181263
+url: "{{ _.baseUrl }}/v1/toroso/send-debit-batch"
+name: Send Batch Debit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"SettlementType": 1,
+    	"Description": "Any Description",
+    	"SystemBatchNumber": "1234562342346903350000009",
+    	"Debits": [{
+    			"SystemRefNumber": "2023042400100000000000009",
+    			"Service": "1-1111-0000",
+    			"DestinationCustomer": {
+    				"Id": "01-1111-0000",
+    				"IdType": "0",
+    				"Name": "ONVO TEST",
+    				"IBAN": "CR02010200000000000001",
+    				"Phone": "",
+    				"Emails": "char@onvopay.com;char+2@onvopay.com"
+    			},
+    			"Amount": 10001,
+    			"Currency": "CRC",
+    			"Description": "Any Description"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682380273531.6836
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

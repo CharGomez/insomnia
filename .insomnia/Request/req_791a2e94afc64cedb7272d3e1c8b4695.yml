@@ -1,0 +1,21 @@
+_id: req_791a2e94afc64cedb7272d3e1c8b4695
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1668038052609
+created: 1663113285935
+url: "{{ _.baseUrl }}/v1/payouts/test"
+name: Test Payout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664811267440.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

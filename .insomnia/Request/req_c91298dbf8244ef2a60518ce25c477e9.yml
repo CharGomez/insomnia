@@ -1,0 +1,21 @@
+_id: req_c91298dbf8244ef2a60518ce25c477e9
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1666295165439
+created: 1666295160865
+url: "{{ _.baseUrl }}/v1/payouts/test-failed"
+name: Test Faile Payout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664790667419.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

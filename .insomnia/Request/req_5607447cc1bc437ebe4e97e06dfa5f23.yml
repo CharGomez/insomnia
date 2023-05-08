@@ -1,0 +1,21 @@
+_id: req_5607447cc1bc437ebe4e97e06dfa5f23
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1665361373020
+created: 1665361361835
+url: "{{ _.baseUrl }}/v1/bank-accounts/test"
+name: Test ADA
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664543467172.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

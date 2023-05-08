@@ -1,0 +1,30 @@
+_id: req_d919e68ec68e40369af211c258fdbb85
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1672604055625
+created: 1664214052948
+url: "{{ _.baseUrl }}/authentication/admin/login"
+name: LOGIN ADMIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@onvopay.com",
+    	"password": "DGn45sdf$236p!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_507ab1c856934b568e12e47a2c435be4
+authentication: {}
+metaSortKey: -1662802230076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

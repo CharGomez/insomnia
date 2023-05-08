@@ -1,0 +1,30 @@
+_id: req_1986fdff13d94c4083281b629bd74c31
+type: Request
+parentId: fld_b330cc9a2a1248ba88838ea783569d98
+modified: 1683255235928
+created: 1682629467916
+url: "{{ _.baseUrl }}/v1/payment-methods/clh9ymtn60000apiaruanc4a2/verify"
+name: 3. Verify PM
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 13
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+metaSortKey: -1682627324881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

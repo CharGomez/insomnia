@@ -1,0 +1,41 @@
+_id: req_daae9c24cd4d4eb6b635f34b2e3cc983
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1669738618470
+created: 1667951633383
+url: "{{ _.baseUrl }}/v1/accounts/admin/taxRates/cl81ystin077801lcf2z8ggzf"
+name: New Request
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"taxRates": [
+    		{
+    			"id": "cl81ysudy099501lct0i1rukb",
+    			"vatTax": 0,
+    			"incomeTax": 0
+    		},
+            {
+    			"id": "cl81ysudy099701lc5ty5cwlq",
+    			"vatTax": 3.75,
+    			"incomeTax": 1.2
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJDdZeDJERDlVSWQ4MEdXWVhQUnBqQVEkczZjM0J6dWtLZ0RnYVEvN2hCdzlibnpRU1BCcmpvWGlRem1wZlJVbnVRZyIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjY3OTY4NzU1LCJleHAiOjE2Njc5NzU5NTV9.7ngUPZeGcz3O85n7G38ZoZQNl0-DlcvXFqmC-lGY5dc
+metaSortKey: -1667951633383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

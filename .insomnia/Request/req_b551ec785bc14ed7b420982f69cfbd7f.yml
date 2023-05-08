@@ -1,0 +1,29 @@
+_id: req_b551ec785bc14ed7b420982f69cfbd7f
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1678398429011
+created: 1672869219270
+url: "{{ _.baseUrl }}/v1/webhooks/dispatch"
+name: WEBHOOK TEST DISPATCH
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"withError": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1666874065605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

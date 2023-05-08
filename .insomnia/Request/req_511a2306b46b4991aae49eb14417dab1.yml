@@ -1,0 +1,39 @@
+_id: req_511a2306b46b4991aae49eb14417dab1
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1675352789566
+created: 1673543911459
+url: "{{ _.baseUrl }}/v1/subscriptions"
+name: Get Subscriptions
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53359c9591ec467b9c7c225091846b7c
+  - id: pair_613fb992d2724b8887dc5717556c903d
+    name: onvo-account-id
+    value: cl2bdw8ez0009agdp6dgpwfm4
+    description: ""
+    disabled: true
+  - id: pair_3bf908e3462d4a17b6537b9f34a126ae
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJHRaU1RRNVVjZDkwNU1MSDBrenBXcGckeHBnVlZ1RFpCOUpwUStqMjBVd0tlTUJZUFFrSHM1dDFDbzJOeHJiRk1aOCIsInN1YiI6ImNsMmJkdzd3ZjAwMDJhZ2RwdDFzcWNuN3UiLCJlbWFpbCI6ImRlbW9fMUBvbnZvcGF5LmNvbSIsImlhdCI6MTY3NTM1Mjc2NywiZXhwIjoxNjc1MzU5OTY3fQ.lKIDeBJHoVQhzwgQAt2cx5dwo4y4a_JNoqNedSu78dw
+  disabled: false
+metaSortKey: -1665482551656.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

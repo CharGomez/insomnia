@@ -1,0 +1,50 @@
+_id: req_49879fd7aa704171af065941bc68864b
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1664324993184
+created: 1663021736022
+url: "{{ _.baseUrl }}/v1/account-documents"
+name: Documents
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"legalIdentityId": "LAj2Ui7LVgIkJ9KONE8mQsntbem9gMoh",
+    	"shareholdersId": "lndE9PzoFCPIu4mSdHi9t6O6U3rIUMXe",
+    	"termsId": "QToYX04dDJqlWDThGwLjQ3tkBDlQJpN3",
+    	"incomeDescriptionId": "nhYXc5zgzKvXmKLtcvBVSXcjdaauMpHu",
+    	"bankStatementId": "RyPV06uzqBFnoWapxx4G2Ldxjng9tAWj",
+    	"ivaStatementId": "",
+    	"taxStatementId": "",
+    	"financialStatementId": "",
+    	"cashFlowForecastId": "",
+    	"userAcceptsProvidingInformation": true,
+    	"userConfirmsFundsOrigin": true,
+    	"userAcceptedCall": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5456d970d1554aab970b1479b35c0314
+  - id: pair_10f6bf7e5b444dc4ace01a24db9e0af2
+    name: onvo-account-id
+    value: cl7ghuwa6729101k2nfhrk2h8
+    description: ""
+  - id: pair_b868ff4f4297427ca93f7b9757c1e640
+    name: onvo-account-mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJGd0TjMvQVNKSWhJdEw4QmpKdUMvWWckUmRsVDFFMDFSNGhnK205R0drc3BWZGRCNWNVdnFGSnQ4M28xRlU3Tk50RSIsInN1YiI6ImNsN2dodXc4bTcyNjIwMWsybGE0ZjRzaDAiLCJlbWFpbCI6ImFuZHJlaW5hK3BvcmV2aWV3QG9udm9wYXkuY29tIiwiaWF0IjoxNjYzMDI0NjAxLCJleHAiOjE2NjMwMzE4MDF9.zq_W9KP5q0HwiLpTZ7eaMtk5hfXzX13LPdVkseHCnLo
+metaSortKey: -1663021736022
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

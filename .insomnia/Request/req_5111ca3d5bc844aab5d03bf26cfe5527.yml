@@ -1,0 +1,61 @@
+_id: req_5111ca3d5bc844aab5d03bf26cfe5527
+type: Request
+parentId: fld_72d3ca9941cc4cf4a84fc3406eb8bb07
+modified: 1672604024670
+created: 1670463090832
+url: "{{ _.baseUrl }}/v1/shoppers/payment-details"
+name: add pm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "mobile_number",
+      "mobileNumber": {
+        "number": "+50688888888",
+        "identificationType": 0,
+        "identification": "03-0405-0012"
+      },
+      "consumerId": "clbd4c4xi038108apnqxjrifl",
+      "billing": {
+        "address": {
+          "city": "cartago",
+          "country": "CR",
+          "postalCode": "30701",
+          "state": "cartago",
+          "line1": "Cartago"
+        }
+      }
+    }
+parameters: []
+headers:
+  - id: pair_236b27b1c87b4fc2821f0a691331ee5a
+    name: onvo-account-id
+    value: cl2benb7e26255agdp0n0ubpbo
+    description: ""
+    disabled: true
+  - id: pair_b284b2ef18564b569440132b7a87b888
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+  - id: pair_a1b1d624d60a4393812a7d7c32e442d9
+    name: onvo-shopper
+    value: 022716e63e78a0e02457d01ddda0e99acbfa76c018c118976894
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: application/json
+    id: pair_7629b370624d4aacac1c14c76d14b79d
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_qKVWxiIn-qnFod9WFNzj1I6a2OjFmuFCDrhW4wISjh7NcSvv2yBH5bWE_UH-uion1AsyiupVrj0OrLDU37l47w
+metaSortKey: -1670463090832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

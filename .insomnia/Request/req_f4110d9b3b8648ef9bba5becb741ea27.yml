@@ -1,0 +1,51 @@
+_id: req_f4110d9b3b8648ef9bba5becb741ea27
+type: Request
+parentId: fld_b330cc9a2a1248ba88838ea783569d98
+modified: 1683251659384
+created: 1682627839409
+url: "{{ _.baseUrl }}/v1/payment-methods"
+name: 2. Create PM
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "bankAccount": {
+        "IBAN": "CR04015201000000000078",
+        "identification": "01-1111-1919",
+        "identificationType": 0
+      },
+      "billing": {
+        "address": {
+          "city": null,
+          "country": "CR",
+          "line1": null,
+          "line2": null,
+          "postalCode": null,
+          "state": null
+        },
+        "name": "Char Sinpe",
+    		"phone": "+50672940269",
+        "email": null,
+        "idType": "national_natural_person",
+        "idNumber": "01-1111-1919"
+      },
+      "customerId": "clgzwgfgq0000apwd719fqhpo",
+      "type": "bank_account"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+metaSortKey: -1682627324906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

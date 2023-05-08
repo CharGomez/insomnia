@@ -1,0 +1,31 @@
+_id: req_b8b39763011f49c7beaa006e713f6c0a
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1678810986758
+created: 1678810912442
+url: "{{ _.baseUrl }}/v1/payment-intents/account"
+name: GET PI
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7857374cd4c945428bea59031404d452
+    name: onvo-account-id
+    value: clbmqmfzj55514fl6kefidzza
+    description: ""
+  - id: pair_6ee09d71f38041b8998f8082c374b3a5
+    name: onvo-account-mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJGUyQytiRkFzL1ZUeS9oYWRycGlXOVEkUFBPTldjWDdiTWJCSnRuU2FrOEt3VmFZRUtuZUh5bGZOUktlNVpGY0RVbyIsInN1YiI6ImNsYm1xbWZ4eTU1MjE0Zmw2YnM2eGZtcXoiLCJlbWFpbCI6Imxlb25hcmRvKzAwMkBvbnZvcGF5LmNvbSIsImlhdCI6MTY3ODgxMDg5NCwiZXhwIjoxNjc4ODE4MDk0fQ.pNg9YmpNPH1qXKnGU4p3rX-nLyHs1kRSquNQVqTh3T8
+metaSortKey: -1664800967429.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

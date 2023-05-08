@@ -1,0 +1,21 @@
+_id: req_fe6b815b269946f29e4181e2476954c5
+type: Request
+parentId: fld_040cfaf291f548bca5c6719551a674e2
+modified: 1682382457585
+created: 1682380627020
+url: "{{ _.baseUrl }}/v1/toroso/GetSentDebits"
+name: Get Debits
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1682379939150.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_6435dd0311f849f5b166f8ad96eb1de5
+type: Request
+parentId: fld_72d3ca9941cc4cf4a84fc3406eb8bb07
+modified: 1670462360867
+created: 1670450487836
+url: "{{ _.baseUrl }}/v1/shoppers/lookup"
+name: lookup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "char@onvopay.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_386678984eb84c8baf966717fc6fdc10
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_qKVWxiIn-qnFod9WFNzj1I6a2OjFmuFCDrhW4wISjh7NcSvv2yBH5bWE_UH-uion1AsyiupVrj0OrLDU37l47w
+metaSortKey: -1670450487836
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

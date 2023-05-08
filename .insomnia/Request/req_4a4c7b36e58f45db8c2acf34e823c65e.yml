@@ -1,0 +1,32 @@
+_id: req_4a4c7b36e58f45db8c2acf34e823c65e
+type: Request
+parentId: fld_72d3ca9941cc4cf4a84fc3406eb8bb07
+modified: 1670462668147
+created: 1670451008114
+url: "{{ _.baseUrl }}/v1/shoppers/start-verification"
+name: start-veri
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"consumerId": "clbd4c4xi038108apnqxjrifl",
+    	"methods": ["sms"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_598d9bd3698342d2ad3e291b51f07a06
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_qKVWxiIn-qnFod9WFNzj1I6a2OjFmuFCDrhW4wISjh7NcSvv2yBH5bWE_UH-uion1AsyiupVrj0OrLDU37l47w
+metaSortKey: -1670451008114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

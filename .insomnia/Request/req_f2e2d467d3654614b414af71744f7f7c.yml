@@ -1,0 +1,32 @@
+_id: req_f2e2d467d3654614b414af71744f7f7c
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1666911843245
+created: 1666640866127
+url: "{{ _.baseUrl }}/v1/customers/with-payment-methods"
+name: Customer with PM
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c1e027cdd7c44ce1866535a7d5beab83
+    name: onvo-account-id
+    value: cl2bdw8ez0009agdp6dgpwfm4
+    description: ""
+  - id: pair_589b09ecfca74b469421522baefe8402
+    name: onvo-account-mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJHJabGxrNDlNMmdZaTIrTHpycHU1M3ckUm54M1FTamw0cUI0cnpjRmlNd3dCbGxYZEtSOHlncFB5ZkMvZ0dETU5mTSIsInN1YiI6ImNsMmJkdzd3ZjAwMDJhZ2RwdDFzcWNuN3UiLCJlbWFpbCI6ImRlbW9fMUBvbnZvcGF5LmNvbSIsImlhdCI6MTY2NjkxMTgzMiwiZXhwIjoxNjY2OTE5MDMyfQ.1XZt78GX8lXeeACTRfp4h4_UFvgyxfCl39b7UxOYSK4
+  disabled: false
+metaSortKey: -1664831867460.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

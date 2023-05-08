@@ -1,0 +1,30 @@
+_id: req_b8bc48eb3eed4ee9860978b498e15fa5
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1678810893083
+created: 1678810862698
+url: "{{ _.baseUrl }}/authentication/jwt/login"
+name: LOGIN - Test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "leonardo+002@onvopay.com",
+    	"password": "Test123456!a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_507ab1c856934b568e12e47a2c435be4
+authentication: {}
+metaSortKey: -1662911979712.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

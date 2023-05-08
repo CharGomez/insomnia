@@ -1,0 +1,25 @@
+_id: req_061c95b56f754e108f604e5d300e7d96
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1664214004027
+created: 1663311354475
+url: "{{ _.baseUrl
+  }}/v1/payment-intents/admin/export?createdAt[gte]=2022-09-24T23:59:59.999-06:\
+  00"
+name: List Customers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: onvo_test_secret_key_mwHZOvTDKkmvSHzgRFKUueFeCUvQvKkVzIXBe8vfk76FvgVsZeUK9ntSpDDXVL-nX4CgFaFGahT81xTX3
+metaSortKey: -1663311354475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

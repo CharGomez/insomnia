@@ -1,0 +1,33 @@
+_id: req_ffba3a4ce01248f4a773a25225bfcc76
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1674595934604
+created: 1674595856960
+url: "{{ _.baseUrl }}/v1/shoppers/signup"
+name: Consumers SignUp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "charky809@gmail.com",
+    	"phone": "+50672940269",
+    	"fullName": "Char"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eb062ca646904c4a8fed19d58cc37435
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+metaSortKey: -1663238611279.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

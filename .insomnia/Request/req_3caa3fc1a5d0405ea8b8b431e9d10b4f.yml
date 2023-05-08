@@ -1,0 +1,27 @@
+_id: req_3caa3fc1a5d0405ea8b8b431e9d10b4f
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1664324987974
+created: 1664213866842
+url: "{{ _.baseUrl }}/v1/payment-intents/admin/export"
+name: EXPORT PAYMENT
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_cd30c6a5c889411593041a29eab51c9b
+    name: createdAt[gte]
+    value: 2022-09-24T23:59:59.999-06:00
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJFF6ZjNBV3d2V1RjNTVSOHlOdXRsTGckcUVhbFkxdWJkWjlrYTc0ZUxYMHB0WUVveDRqbW45YzFFTEVNRHhDTCtCNCIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjY0MjE0MTAwLCJleHAiOjE2NjQyMjEzMDB9.6MSVfZ2X2xoqQQLtt6F4EiOrvsaJ_Qc0ZqJMor0nd3I
+metaSortKey: -1664213866843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

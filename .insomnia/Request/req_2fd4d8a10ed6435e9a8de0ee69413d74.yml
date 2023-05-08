@@ -1,0 +1,33 @@
+_id: req_2fd4d8a10ed6435e9a8de0ee69413d74
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1673385352985
+created: 1665853629298
+url: "{{ _.baseUrl }}/v1/accounts/admin/payout-status/cl8jmpl0m4401101jz7fze7qc3"
+name: Payout Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"note":  "Test",
+    "reason": "other",
+    "status": "paused"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eb062ca646904c4a8fed19d58cc37435
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJDFoTXZSQ21sMUJhd0ZySHVEcnRDeHckODExNzRuVjM2dHEycFlWc0k4bjJzWmhjcGNlWTZYRHUvQVFIOENTTGJ6byIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjY1ODUzNzg4LCJleHAiOjE2NjU4NjA5ODh9.8N6cYgE4SfxNvG3gnvRH3EkrJrNlpvGsVvwJrLP077k
+metaSortKey: -1663166319527
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

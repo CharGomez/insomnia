@@ -1,0 +1,23 @@
+_id: req_080f9ba9465b46929714128b61312c5b
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1667668579588
+created: 1667668469126
+url: "{{ _.baseUrl }}/v1/customers/all"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_Xqzq5EKhb7b1PSwWe1_hAv4UFviPsIW8IYG9rvWrgvARrXgUlSCKND9300970GD1V774CsVZ0OZoJkkLbi_WsA
+metaSortKey: -1667668469127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_84035efcf0c346adae1bf3392ad0d5c4
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1673385355460
+created: 1672868704723
+url: "{{ _.baseUrl }}/v1/webhooks/test"
+name: WEBHOOK TEST
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "succedeed",
+    	"data": {
+    		"field": "test"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1667007321971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

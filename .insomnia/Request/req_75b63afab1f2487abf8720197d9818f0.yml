@@ -1,0 +1,31 @@
+_id: req_75b63afab1f2487abf8720197d9818f0
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1682360230192
+created: 1679970055179
+url: http://localhost:3030/v1/payment-intents/clgv5qui900qjap3s9225hin1
+name: GET PI BY ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f4d8b3b7e36444c39c89ff5eba62e0e5
+    name: onvo-account-mode
+    value: test
+    description: ""
+  - id: pair_defa0236d16b4287ac7422985641be18
+    name: onvo-account-id
+    value: cl2bdw8ez0009agdp6dgpwfm4
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJEdkL3BQUEc5NlU2ZDM0WWkxZG1KQkEkQWtMa2d5NXp6ME1FbGFUdWtvMVlwSloyaFFzWUJSTy9kT1JacXp2c2NPTSIsInN1YiI6ImNsMmJkdzd3ZjAwMDJhZ2RwdDFzcWNuN3UiLCJlbWFpbCI6ImRlbW9fMUBvbnZvcGF5LmNvbSIsImlhdCI6MTY4MjM2MDIxNiwiZXhwIjoxNjgyMzY3NDE2fQ.6-TsPcbyStC8L-wwvHOA04npHssrUzSkPWez5wTYj8Q
+metaSortKey: -1679015290347
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

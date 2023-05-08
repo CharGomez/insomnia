@@ -1,0 +1,23 @@
+_id: req_7cb4aedfb28d4ac9b6031933abad405a
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1672604098769
+created: 1672604075420
+url: "{{ _.baseUrl }}/v1/shoppers/admin/all"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjp0cnVlLCJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJEpMVzlzVW1UenpFSms3N3UxRElsb2ckVGpqWmZ6L0w4ZXZqVWVoc1JVVm9JUkM2LzVGU3duNkRPK3F4WkFQcmVVZyIsInN1YiI6InhsMmI4M2hvZjAwMDJhcmRwaWFuaHVtbmMiLCJlbWFpbCI6ImFkbWluQG9udm9wYXkuY29tIiwiaWF0IjoxNjcyNjA0MDU3LCJleHAiOjE2NzI2MTEyNTd9.Vi14vtp_Vl1gpKR5C-W2WrYv38-W6KMTSk9b9pGGgnQ
+metaSortKey: -1672604075420
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

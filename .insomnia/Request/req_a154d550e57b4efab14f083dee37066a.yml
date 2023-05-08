@@ -1,0 +1,32 @@
+_id: req_a154d550e57b4efab14f083dee37066a
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1682360442431
+created: 1682360418744
+url: "{{ _.baseUrl }}/v1/customers/clgv5simv00qmap3silb6f63r"
+name: Get Customer by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c1e027cdd7c44ce1866535a7d5beab83
+    name: onvo-account-id
+    value: cl2bdw8ez0009agdp6dgpwfm4
+    description: ""
+  - id: pair_589b09ecfca74b469421522baefe8402
+    name: onvo-account-mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJEdkL3BQUEc5NlU2ZDM0WWkxZG1KQkEkQWtMa2d5NXp6ME1FbGFUdWtvMVlwSloyaFFzWUJSTy9kT1JacXp2c2NPTSIsInN1YiI6ImNsMmJkdzd3ZjAwMDJhZ2RwdDFzcWNuN3UiLCJlbWFpbCI6ImRlbW9fMUBvbnZvcGF5LmNvbSIsImlhdCI6MTY4MjM2MDIxNiwiZXhwIjoxNjgyMzY3NDE2fQ.6-TsPcbyStC8L-wwvHOA04npHssrUzSkPWez5wTYj8Q
+  disabled: false
+metaSortKey: -1664826717455.664
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

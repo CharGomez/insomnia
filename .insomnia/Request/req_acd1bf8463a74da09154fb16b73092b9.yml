@@ -1,0 +1,21 @@
+_id: req_acd1bf8463a74da09154fb16b73092b9
+type: Request
+parentId: fld_ed50aa13618d49129251c7ed9a647c06
+modified: 1680104694157
+created: 1680104684338
+url: https://api.onvopay.com/v1/checkout/sessions/one-time-link/account
+name: Get One Times
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680104684338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
