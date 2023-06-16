@@ -1,9 +1,9 @@
 _id: req_1986fdff13d94c4083281b629bd74c31
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1683255235928
+modified: 1684947665112
 created: 1682629467916
-url: "{{ _.baseUrl }}/v1/payment-methods/clh9ymtn60000apiaruanc4a2/verify"
+url: "{{ _.baseUrl }}/v1/payment-methods/cli1y9h0h0168atrqie0o4osg/verify"
 name: 3. Verify PM
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"amount": 13
+    	"amount": 99
     }
 parameters: []
 headers:
@@ -19,7 +19,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+  token: onvo_test_publishable_key_aDZbCq7pTP5SDTBuwGxRtfh7_JYB5YeaQrBZTTzmJLFoJ4w1hR0E7vuCE6IEpH-fRLpXnjWwYLUr69oUZWYpBA
 metaSortKey: -1682627324881
 isPrivate: false
 settingStoreCookies: true

@@ -1,9 +1,9 @@
 _id: req_3b7307c464134a23aee84e3488c2c842
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1670373309538
+modified: 1685497816676
 created: 1664908418294
-url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_JoYYdhG4YWi2gz0w5wQ2n21xRXo"
+url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_D9FtkqCe5wHy3p8ge3QPXvbMWjw"
 name: Checkout Session
 description: ""
 method: GET

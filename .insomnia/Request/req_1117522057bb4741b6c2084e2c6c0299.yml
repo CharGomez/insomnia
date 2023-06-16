@@ -1,7 +1,7 @@
 _id: req_1117522057bb4741b6c2084e2c6c0299
 type: Request
 parentId: fld_040cfaf291f548bca5c6719551a674e2
-modified: 1683332058424
+modified: 1684799802449
 created: 1682381992611
 url: "{{ _.baseUrl }}/v1/toroso/batch-state"
 name: Get Batch State
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"SystemBatchNumber": "2023050600100000000000001"
+    	"SystemBatchNumber": "2023051900100000000000006"
     }
 parameters: []
 headers:

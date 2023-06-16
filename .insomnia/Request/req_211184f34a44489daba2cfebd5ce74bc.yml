@@ -1,7 +1,7 @@
 _id: req_211184f34a44489daba2cfebd5ce74bc
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1682646780841
+modified: 1684947356666
 created: 1682627466144
 url: "{{ _.baseUrl }}/v1/customers"
 name: 0. Create Client
@@ -19,9 +19,9 @@ body:
         "postalCode": "30701",
         "state": "Cartago"
       },
-      "description": "Char SinpeFlow Client",
-      "email": "char+sinpe@onvopay.com",
-      "name": "Char Sinpe",
+      "description": "Char Pruebas SinpeFlow2",
+      "email": "char+sinpruebas@onvopay.com",
+      "name": "Char Pruebas Sinpe",
       "phone": "+50672940269",
       "shipping": {
         "address": {
@@ -32,7 +32,7 @@ body:
         "postalCode": "30701",
         "state": "Cartago"
         },
-        "name": "Char Sinpe",
+        "name": "Char Pruebas Sinpe",
         "phone": "+50672940269"
       }
     }
@@ -42,7 +42,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_secret_key_mwHZOvTDKkmvSHzgRFKUueFeCUvQvKkVzIXBe8vfk76FvgVsZeUK9ntSpDDXVL-nX4CgFaFGahT81xTX3dJ4-w
+  token: onvo_test_secret_key_SnNTA10HFfYq4CdyekIeexFWshS8yH4N2KDcMht3IGKyYvicpsBqHmiyvAKOjUR6-7jbw4-Fe5lAEnd_F5JM3A
 metaSortKey: -1682627466144
 isPrivate: false
 settingStoreCookies: true

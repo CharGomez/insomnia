@@ -1,7 +1,7 @@
 _id: req_f4110d9b3b8648ef9bba5becb741ea27
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1683251659384
+modified: 1684955125101
 created: 1682627839409
 url: "{{ _.baseUrl }}/v1/payment-methods"
 name: 2. Create PM
@@ -12,8 +12,8 @@ body:
   text: |-
     {
       "bankAccount": {
-        "IBAN": "CR04015201000000000078",
-        "identification": "01-1111-1919",
+        "IBAN": "CR10015101000000000023",
+        "identification": "03-0482-0225",
         "identificationType": 0
       },
       "billing": {
@@ -25,13 +25,13 @@ body:
           "postalCode": null,
           "state": null
         },
-        "name": "Char Sinpe",
+        "name": "Char Pruebas Sinpe",
     		"phone": "+50672940269",
         "email": null,
         "idType": "national_natural_person",
-        "idNumber": "01-1111-1919"
+        "idNumber": "03-0482-0225"
       },
-      "customerId": "clgzwgfgq0000apwd719fqhpo",
+      "customerId": "cli1y8ne60045atrq448xq1rp",
       "type": "bank_account"
     }
 parameters: []
@@ -40,7 +40,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_publishable_key_vrqT_kYMZNfvc3F0LPAwRQPrkpRlYL9dLOX2bLwYNE52bYG8UgEYhtbxyU1mfPW1iMgPcFysPnpEtlL3SVWdTA
+  token: onvo_test_publishable_key_aDZbCq7pTP5SDTBuwGxRtfh7_JYB5YeaQrBZTTzmJLFoJ4w1hR0E7vuCE6IEpH-fRLpXnjWwYLUr69oUZWYpBA
 metaSortKey: -1682627324906
 isPrivate: false
 settingStoreCookies: true
