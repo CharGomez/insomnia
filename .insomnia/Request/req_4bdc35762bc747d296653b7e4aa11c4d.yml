@@ -1,0 +1,32 @@
+_id: req_4bdc35762bc747d296653b7e4aa11c4d
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1687925066340
+created: 1687925002377
+url: "{{ _.baseUrl }}/v1/app-config/test"
+name: APP CONFIG BY KEY
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "succedeed",
+    	"data": {
+    		"field": "test"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1666940693788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

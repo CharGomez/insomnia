@@ -1,0 +1,29 @@
+_id: req_f6c5fbb7db4441cbb8e608e0e3058f2f
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1689812105377
+created: 1688503064806
+url: "{{ _.baseUrl }}/v1/invoices/manual-retry"
+name: MANUAL INVOICE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"invoiceId": "clkae8tba000trqvkisupw2nr"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1666974007879.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_f604c356a4cc454a943b6cc95b34995a
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1689907076568
+created: 1689907061887
+url: "{{ _.baseUrl }}/v1/subscriptions/clhf1wxhx664874hlb0117ga2m"
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cancelAtPeriodEnd": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_rhT1k1tlnaNr7xLGWC7umySxit6i-vJocJiRmkxcBx1Wb4r8AqOgOJ-vM0S1ykNzwOsvDV4HwYbyXmbqbdIZPg
+metaSortKey: -1689906034104.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

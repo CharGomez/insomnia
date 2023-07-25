@@ -1,0 +1,27 @@
+_id: req_647e9147fd574ffe9c861dba602cf8aa
+type: Request
+parentId: fld_c7f49685f5cd4791a87fb290935470da
+modified: 1689019391140
+created: 1689019067602
+url: "{{ _.baseUrl }}/v1/payment-methods/cl7gpbtat017401lf960tbsss8pp/detach"
+name: Detach
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_secret_key_SnNTA10HFfYq4CdyekIeexFWshS8yH4N2KDcMht3IGKyYvicpsBqHmiyvAKOjUR6-7jbw4-Fe5lAEnd_F5JM3A
+metaSortKey: -1689019067602
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

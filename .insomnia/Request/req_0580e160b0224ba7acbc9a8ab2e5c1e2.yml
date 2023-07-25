@@ -1,0 +1,28 @@
+_id: req_0580e160b0224ba7acbc9a8ab2e5c1e2
+type: Request
+parentId: fld_040cfaf291f548bca5c6719551a674e2
+modified: 1687554709287
+created: 1687549704976
+url: "{{ _.baseUrl }}/v1/toroso/GetADABySystemRefNumber"
+name: Get ADA by SysRefNum
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "SystemRefNumber": "2023062200500000000000003"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682379060181.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

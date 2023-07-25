@@ -1,0 +1,30 @@
+_id: req_8bc4d593636b47919bc8ea93d1c82a8d
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1689907054094
+created: 1689906035279
+url: "{{ _.baseUrl }}/v1/subscriptions/clhf1wxhx664874hlb0117ga2m/confirm"
+name: Confirm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"paymentMethodId": "clhaskqux335414ellzyxbcr7g"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_rhT1k1tlnaNr7xLGWC7umySxit6i-vJocJiRmkxcBx1Wb4r8AqOgOJ-vM0S1ykNzwOsvDV4HwYbyXmbqbdIZPg
+metaSortKey: -1689906035279
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

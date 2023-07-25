@@ -1,0 +1,32 @@
+_id: req_301bd6726eb1482697def113d280c7e9
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1689811883566
+created: 1689636358917
+url: https://uat-toroso.prosoftsaas.com:10998/PS.Toroso.PublicInterface/api/BaseCore/GetAccountInfo
+name: Toroso
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "HolderId":"03-4535-3453",
+      "AccountNumber":"CR65012301000000000032",
+      "HostId":"6NaBf80JrIDW/VXLMkCfJ73NivpX4ob2D17dznNlI/9ZPeFFLJ8LLU1kVwQowEqZirWz8d0RBDm/bYM4nU6QHA==",
+      "CultureCode":"ES-CR",
+      "ClientIPAddress":"154.6.21.193"
+    } 
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689636358917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

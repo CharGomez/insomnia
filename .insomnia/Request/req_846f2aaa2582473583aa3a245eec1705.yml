@@ -1,0 +1,28 @@
+_id: req_846f2aaa2582473583aa3a245eec1705
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1689811880687
+created: 1689798087089
+url: https://credid.net/wstest/api/Reporte?cedula=304050012
+name: Credid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_635a8666e86e4798b98498870e67a18b
+    name: Authorization
+    value: 097B4E36-D9E7-4FA3-8B34-28D6C68EEE67
+    description: ""
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1689798087089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

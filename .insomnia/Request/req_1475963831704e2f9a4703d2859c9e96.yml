@@ -1,0 +1,32 @@
+_id: req_1475963831704e2f9a4703d2859c9e96
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1687807617630
+created: 1687807568181
+url: "{{ _.baseUrl }}/v1/payment-intents/cljd8wa5h03vhib2oqbigrscx"
+name: Get Payment Intent
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c1e027cdd7c44ce1866535a7d5beab83
+    name: onvo-account-id
+    value: cl2bdw8ez0009agdp6dgpwfm4
+    description: ""
+  - id: pair_589b09ecfca74b469421522baefe8402
+    name: onvo-account-mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: onvo_test_secret_key_SnNTA10HFfYq4CdyekIeexFWshS8yH4N2KDcMht3IGKyYvicpsBqHmiyvAKOjUR6-7jbw4-Fe5lAEnd_F5JM3A
+  disabled: false
+metaSortKey: -1664824142453.0898
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
