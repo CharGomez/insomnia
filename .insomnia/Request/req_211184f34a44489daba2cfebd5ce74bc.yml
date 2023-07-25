@@ -1,7 +1,7 @@
 _id: req_211184f34a44489daba2cfebd5ce74bc
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1684947356666
+modified: 1688590706728
 created: 1682627466144
 url: "{{ _.baseUrl }}/v1/customers"
 name: 0. Create Client
@@ -14,25 +14,25 @@ body:
       "address": {
         "city": "Cartago",
         "country": "CR",
-        "line1": "Vistas de Oreamuno",
+        "line1": "Cartago",
         "line2": null,
         "postalCode": "30701",
         "state": "Cartago"
       },
-      "description": "Char Pruebas SinpeFlow2",
-      "email": "char+sinpruebas@onvopay.com",
-      "name": "Char Pruebas Sinpe",
+      "description": "Carlos Gomez",
+      "email": "char+103@onvopay.com",
+      "name": "Carlos Gomez",
       "phone": "+50672940269",
       "shipping": {
         "address": {
           "city": "Cartago",
           "country": "CR",
-    	    "line1": "Vistas de Oreamuno",
+    	    "line1": "Cartago",
           "line2": null,
         "postalCode": "30701",
         "state": "Cartago"
         },
-        "name": "Char Pruebas Sinpe",
+        "name": "Carlos Gomez",
         "phone": "+50672940269"
       }
     }

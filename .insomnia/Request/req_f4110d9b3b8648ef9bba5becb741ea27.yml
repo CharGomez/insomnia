@@ -1,7 +1,7 @@
 _id: req_f4110d9b3b8648ef9bba5becb741ea27
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1684955125101
+modified: 1688669946711
 created: 1682627839409
 url: "{{ _.baseUrl }}/v1/payment-methods"
 name: 2. Create PM
@@ -12,26 +12,26 @@ body:
   text: |-
     {
       "bankAccount": {
-        "IBAN": "CR10015101000000000023",
-        "identification": "03-0482-0225",
+        "IBAN": "CR89032601000000000093",
+        "identification": "03-0405-012",
         "identificationType": 0
       },
       "billing": {
         "address": {
-          "city": null,
+          "city": "San Jose",
           "country": "CR",
           "line1": null,
           "line2": null,
-          "postalCode": null,
-          "state": null
+          "postalCode": "00400",
+          "state": "San Jose"
         },
-        "name": "Char Pruebas Sinpe",
+        "name": "Carlos Gomez",
     		"phone": "+50672940269",
         "email": null,
         "idType": "national_natural_person",
-        "idNumber": "03-0482-0225"
+        "idNumber": "03-0405-012"
       },
-      "customerId": "cli1y8ne60045atrq448xq1rp",
+      "customerId": "cljq7b6js0000rqtalszhm2fo",
       "type": "bank_account"
     }
 parameters: []

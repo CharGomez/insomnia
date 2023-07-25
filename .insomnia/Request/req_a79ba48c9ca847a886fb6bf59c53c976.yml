@@ -1,7 +1,7 @@
 _id: req_a79ba48c9ca847a886fb6bf59c53c976
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1684909345493
+modified: 1688669979695
 created: 1682627324956
 url: "{{ _.baseUrl }}/v1/payment-intents"
 name: 1. Create PI
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-      "amount": 150000,
+      "amount": 100,
       "currency": "CRC",
-      "customerId": "cli1bik9s0045ugrqjx8clsc9",
-      "description": "Intencion de pago CHAR SINPE flow Any Description"
+      "customerId": "cljq7b6js0000rqtalszhm2fo",
+      "description": "PM ON-HOLD to rEJEC V1.1 TEST"
     }
 parameters: []
 headers:

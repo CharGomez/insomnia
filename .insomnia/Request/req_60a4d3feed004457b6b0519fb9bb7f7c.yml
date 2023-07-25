@@ -1,7 +1,7 @@
 _id: req_60a4d3feed004457b6b0519fb9bb7f7c
 type: Request
 parentId: fld_040cfaf291f548bca5c6719551a674e2
-modified: 1684906057103
+modified: 1688611624333
 created: 1683332240948
 url: "{{ _.baseUrl }}/v1/toroso/settlement-result"
 name: Get Settlement Result
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"CycleDate": "2023-05-22T00:00:00",
+    	"CycleDate": "2023-07-05T00:00:00",
     	"Page": 1
     }
 parameters: []

@@ -1,9 +1,9 @@
 _id: req_6addf696d37242ee9af4ff9eaa582939
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1684955615541
+modified: 1688669991365
 created: 1682629065991
-url: "{{ _.baseUrl }}/v1/payment-intents/cli22u41r25923zrqtfwmlh7n/confirm"
+url: "{{ _.baseUrl }}/v1/payment-intents/cljrii9cp000brqjkuj7m1xqn/confirm"
 name: 4. Confirm PI
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    "paymentMethodId": "cli1ygafh0631atrq9ulyc8c4"
+    "paymentMethodId": "cljrihmzy0000rqjkj16mwmwx"
     }
 parameters: []
 headers:
