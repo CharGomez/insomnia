@@ -1,7 +1,7 @@
 _id: req_b8b39763011f49c7beaa006e713f6c0a
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1678810986758
+modified: 1693357147479
 created: 1678810912442
 url: "{{ _.baseUrl }}/v1/payment-intents/account"
 name: GET PI
@@ -20,7 +20,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NDA5Nix0PTMscD0xJGUyQytiRkFzL1ZUeS9oYWRycGlXOVEkUFBPTldjWDdiTWJCSnRuU2FrOEt3VmFZRUtuZUh5bGZOUktlNVpGY0RVbyIsInN1YiI6ImNsYm1xbWZ4eTU1MjE0Zmw2YnM2eGZtcXoiLCJlbWFpbCI6Imxlb25hcmRvKzAwMkBvbnZvcGF5LmNvbSIsImlhdCI6MTY3ODgxMDg5NCwiZXhwIjoxNjc4ODE4MDk0fQ.pNg9YmpNPH1qXKnGU4p3rX-nLyHs1kRSquNQVqTh3T8
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRpSEplU3pZSlc2WWMwYmFUanBTRzlRJFB1M1NYdVB4VlY1NE13VW16MUd3TVZwWkNkR05kcGRRTHFLV2dBclY0ajgiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5MzM1NzEyNiwiZXhwIjoxNjkzMzY0MzI2fQ.xsGQQPBKaRcnLIlUYirog7-lnrfpnum9WsDPv6Q37W4
 metaSortKey: -1664800967429.9219
 isPrivate: false
 settingStoreCookies: true

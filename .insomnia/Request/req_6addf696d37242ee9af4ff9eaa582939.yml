@@ -1,9 +1,9 @@
 _id: req_6addf696d37242ee9af4ff9eaa582939
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1688669991365
+modified: 1695401955814
 created: 1682629065991
-url: "{{ _.baseUrl }}/v1/payment-intents/cljrii9cp000brqjkuj7m1xqn/confirm"
+url: "{{ _.baseUrl }}/v1/payment-intents/clmuujlqj0001rqadpwhxzw08/confirm"
 name: 4. Confirm PI
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    "paymentMethodId": "cljrihmzy0000rqjkj16mwmwx"
+    "paymentMethodId": "clmutceqy000erqmtwuxfbvb5"
     }
 parameters: []
 headers:
@@ -19,7 +19,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_publishable_key_aDZbCq7pTP5SDTBuwGxRtfh7_JYB5YeaQrBZTTzmJLFoJ4w1hR0E7vuCE6IEpH-fRLpXnjWwYLUr69oUZWYpBA
+  token: onvo_test_publishable_key_Vn7zThcx8MSy676q-EYf54PcXriTdD8-PVwMrrwTl7E2aYbI4gxMKyXTp0mrNaSDAuHZVNbGgOsssE3QFMp2Ig
 metaSortKey: -1682627324856
 isPrivate: false
 settingStoreCookies: true

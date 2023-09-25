@@ -1,7 +1,7 @@
 _id: req_4d552464fb6847d689bf3ce24810044b
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1689019003790
+modified: 1695316257608
 created: 1663021729349
 url: "{{ _.baseUrl }}/authentication/jwt/login"
 name: LOGIN
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "andreina+poreview@onvopay.com",
-    	"password": "Prueba2022"
+    	"email": "char-invite1@mailinator.com",
+    	"password": "Test123456!"
     }
 parameters: []
 headers:

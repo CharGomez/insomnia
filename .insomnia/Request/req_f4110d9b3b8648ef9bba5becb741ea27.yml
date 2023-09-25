@@ -1,7 +1,7 @@
 _id: req_f4110d9b3b8648ef9bba5becb741ea27
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1688669946711
+modified: 1695399929679
 created: 1682627839409
 url: "{{ _.baseUrl }}/v1/payment-methods"
 name: 2. Create PM
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-      "bankAccount": {
-        "IBAN": "CR89032601000000000093",
+      "mobileNumber": {
+        "number": "+50688888888",
         "identification": "03-0405-012",
         "identificationType": 0
       },
@@ -31,8 +31,8 @@ body:
         "idType": "national_natural_person",
         "idNumber": "03-0405-012"
       },
-      "customerId": "cljq7b6js0000rqtalszhm2fo",
-      "type": "bank_account"
+      "customerId": "clmut4rry0008rqmtcwb2pik5",
+      "type": "mobile_number"
     }
 parameters: []
 headers:
@@ -40,7 +40,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_publishable_key_aDZbCq7pTP5SDTBuwGxRtfh7_JYB5YeaQrBZTTzmJLFoJ4w1hR0E7vuCE6IEpH-fRLpXnjWwYLUr69oUZWYpBA
+  token: onvo_test_publishable_key_Vn7zThcx8MSy676q-EYf54PcXriTdD8-PVwMrrwTl7E2aYbI4gxMKyXTp0mrNaSDAuHZVNbGgOsssE3QFMp2Ig
 metaSortKey: -1682627324906
 isPrivate: false
 settingStoreCookies: true

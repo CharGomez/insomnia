@@ -1,16 +1,25 @@
 _id: req_32e613cdfdf042a7b00dcc3e24d31e8e
 type: Request
 parentId: fld_b0d1b5387f814627a4a87ff2b5b05b9e
-modified: 1689906032930
+modified: 1690333394262
 created: 1689906032930
-url: ""
-name: New Request
+url: "{{baseUrl}}/v1/subscriptions/clkj0ug0y0001rq54w9s1d923/confirm"
+name: Confirm
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"paymentMethodId": "clkil3u8h02c9lg2inxskhubc"
+    }
 parameters: []
-headers: []
-authentication: {}
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_publishable_key_rhT1k1tlnaNr7xLGWC7umySxit6i-vJocJiRmkxcBx1Wb4r8AqOgOJ-vM0S1ykNzwOsvDV4HwYbyXmbqbdIZPg
 metaSortKey: -1689906032930
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_d062496422374b4c8e65117ed7711feb
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1687977524226
+modified: 1691111100268
 created: 1667273834703
 url: "{{ _.baseUrl }}/v1/toroso/NotifyIncomingTransfers"
 name: TOROS NOTI
@@ -30,7 +30,7 @@ body:
     	"UserCode": null,
     	"ContextIP": null,
     	"Transfers": [{
-    		"Amount": 10000,
+    		"Amount": 9900,
     		"Currency": "CRC",
     		"CustomData": null,
     		"Description": "***************",
@@ -40,7 +40,7 @@ body:
     			"Phone": "72940269",
     			"IdType": 0
     		},
-    		"SINPERefNumber": "1234500342346903357893456344002",
+    		"SINPERefNumber": "1234500342346903357893456344029",
     		"AuthorizationDate": "2023-06-28T09:15:30.04",
     		"DestinationCustomer": {
     			"Id": "3-101-815764",

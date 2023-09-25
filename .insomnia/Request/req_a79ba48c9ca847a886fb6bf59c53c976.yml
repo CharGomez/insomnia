@@ -1,7 +1,7 @@
 _id: req_a79ba48c9ca847a886fb6bf59c53c976
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1688669979695
+modified: 1695399600423
 created: 1682627324956
 url: "{{ _.baseUrl }}/v1/payment-intents"
 name: 1. Create PI
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-      "amount": 100,
+      "amount": 500,
       "currency": "CRC",
-      "customerId": "cljq7b6js0000rqtalszhm2fo",
-      "description": "PM ON-HOLD to rEJEC V1.1 TEST"
+      "customerId": "clmut4rry0008rqmtcwb2pik5",
+      "description": "test para nacion"
     }
 parameters: []
 headers:
@@ -22,7 +22,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_secret_key_SnNTA10HFfYq4CdyekIeexFWshS8yH4N2KDcMht3IGKyYvicpsBqHmiyvAKOjUR6-7jbw4-Fe5lAEnd_F5JM3A
+  token: onvo_test_secret_key__o3x6C-fqsXrUseO8uu2dvDhtjJBlWQuOa1ioAvSTY2Y-rqXQt1OutgKAxlcMNr-QZzn1QEaKP3j9wed4VX4fQ
 metaSortKey: -1682627324956
 isPrivate: false
 settingStoreCookies: true
