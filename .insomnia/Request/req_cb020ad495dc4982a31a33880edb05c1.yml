@@ -1,0 +1,58 @@
+_id: req_cb020ad495dc4982a31a33880edb05c1
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1694117396690
+created: 1694115462996
+url: "{{ _.baseUrl }}/v1/accounts/clm9izt5q00u7k32jwgxhxoaz"
+name: Account Patch
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"currentOnboardingStep": "5",
+    	"statementDescriptor": "CHARSODADD",
+    	"businessProfile": {
+    		"name": "nuevo",
+    		"categoryName": "741203",
+    		"years": 3,
+    		"supportUrl": "http://chartest.io",
+    		"supportEmail": "char.test@mailinator.com",
+    		"supportPhone": "+50672940269",
+    		"supportAddress": "Cartago",
+    		"description": "fesc",
+    		"deliveryTime": null,
+    		"address": {
+    			"country": "CR",
+    			"state": "Cartago",
+    			"city": "Paraíso",
+    			"line1": "Orosi",
+    			"line2": "Cartago"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ef9efe84ef804173be8440e0e9a85a21
+  - id: pair_59a79b6bf4894f299b83f1c5df86a0c5
+    name: Onvo-Account-Id
+    value: clm9jpino00x8k32jvno3s86h
+    description: ""
+  - id: pair_1339238cce0a470ba48e6d3d73cd108b
+    name: Onvo-Account-Mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRtNGh2d1pBcEdwSVlXLzgrQWprY0F3JEhTeEs1SUhySUY4Y3B0ZmZMUGcvTUhINVhscTlZWm1xaktYZmV6RXdpWW8iLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NDExNTU5MCwiZXhwIjoxNjk0MTIyNzkwfQ.9MItzMnDf6UW6ekBL3KTR5abUggALR-8RUcRzIh5wCc
+metaSortKey: -1667810051255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

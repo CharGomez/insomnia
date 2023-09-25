@@ -1,0 +1,38 @@
+_id: req_574e51498cfd487e85b9f879ccd14287
+type: Request
+parentId: fld_f0d0be092228489db1af18309aaacb90
+modified: 1695323819819
+created: 1694578188748
+url: "{{ _.baseUrl }}/v1/account-member-invitations"
+name: Get Invitations
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53359c9591ec467b9c7c225091846b7c
+  - id: pair_613fb992d2724b8887dc5717556c903d
+    name: onvo-account-id
+    value: clmr522bu0002rqodr52s4igk
+    description: ""
+    disabled: false
+  - id: pair_3bf908e3462d4a17b6537b9f34a126ae
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjpmYWxzZSwiaHRTZWNyZXQiOiIkYXJnb24yaWQkdj0xOSRtPTY1NTM2LHQ9MyxwPTQkb2pOSlBORVpBSEsyK0FxZ2YzU2ZaUSRmUVUrYmdWeTJrcm4yR3RKTWlYZ2dEVTN2RE1kVkJ3TVNtRnZlZVZSK2hBIiwic3ViIjoiY2xtcjUyMjcyMDAwMHJxb2RmaG5ybjI4bCIsImVtYWlsIjoiY2hhci1pbnZpdGUxQG1haWxpbmF0b3IuY29tIiwiaWF0IjoxNjk1MzIzNzk2LCJleHAiOjE2OTUzMzA5OTZ9.41xNe_WWvY_gPm5yYZcWuGkyKXFsRfcuG-3JvpHRnXc
+metaSortKey: -1693097316051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

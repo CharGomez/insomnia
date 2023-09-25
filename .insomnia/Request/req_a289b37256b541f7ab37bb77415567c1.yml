@@ -1,0 +1,41 @@
+_id: req_a289b37256b541f7ab37bb77415567c1
+type: Request
+parentId: fld_f0d0be092228489db1af18309aaacb90
+modified: 1694654596808
+created: 1694480287793
+url: "{{ _.baseUrl }}/v1/account-members/invite"
+name: Invite Member
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "invi-onvo3@mailinator.com",
+    	"role": "administrator"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53359c9591ec467b9c7c225091846b7c
+  - id: pair_613fb992d2724b8887dc5717556c903d
+    name: onvo-account-id
+    value: clc895b2z83904gk7ywnwccn3
+    description: ""
+  - id: pair_3bf908e3462d4a17b6537b9f34a126ae
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRqZktyNU02NU1ESEp1cVlsSTNnTWRBJDNUSjhRUXYvak5WbmVJZjNBcm1lVEJpWjBwQlZ5NmYraU9qRFZlc1dyclkiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NDY1MDEwMywiZXhwIjoxNjk0NjU3MzAzfQ.xeD0DsO1RTbuI8A-D0a22_N-uauSAXZxxTDCt8aLrzw
+metaSortKey: -1694578176954
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

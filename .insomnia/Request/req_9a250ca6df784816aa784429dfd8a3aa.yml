@@ -1,0 +1,23 @@
+_id: req_9a250ca6df784816aa784429dfd8a3aa
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1694126091461
+created: 1694125762860
+url: "{{ _.baseUrl }}/v1/accounts/statementDescriptors/lookUp/KIWIDREAM"
+name: Check Statements Descripto
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCQycXRsays4cXZnL0ZuR1djOGJ1WHV3JG53SzNuNlY1d0VYV1MwRU85Q3BObXNjVWhXazdtcWZnQ0xGcytzOTI1Mk0iLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NDEyNTc4OCwiZXhwIjoxNjk0MTMyOTg4fQ.CemD4WIpSEtBbZlLMIRN_dAWxX-jYWpqwA_FrC_mjoo
+metaSortKey: -1667471151915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

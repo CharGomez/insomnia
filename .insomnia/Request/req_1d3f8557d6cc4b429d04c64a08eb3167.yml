@@ -1,0 +1,37 @@
+_id: req_1d3f8557d6cc4b429d04c64a08eb3167
+type: Request
+parentId: fld_fe4cad21739048ca98073fad6f274098
+modified: 1691616687803
+created: 1691616455147
+url: "{{ _.baseUrl }}/v1/prices/clbya2izk34194fjtqo0ubcds"
+name: Update Price
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productId": "clbya2izk34194fjtqo0ubcds",
+    	"currency": "USD",
+    	"type":"recurring",
+    	"recurring": {
+    		"interval": "year",
+    		"intervalCount": 1
+    	},
+    	"unitAmount": 300000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: onvo_test_secret_key_nSTIiLpydik9gQrex8JSarHCLJE2S72t0tLacL1Wkq7xl-nAEfgw5TjvC9he7cheIU7s6Shqr7nqUMYm_V1dKg
+metaSortKey: -1691616455148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

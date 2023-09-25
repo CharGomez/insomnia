@@ -1,0 +1,44 @@
+_id: req_350c941e20fa486a85936de5809424fa
+type: Request
+parentId: fld_f0d0be092228489db1af18309aaacb90
+modified: 1695324053356
+created: 1695319840528
+url: "{{ _.baseUrl }}/v1/account-member-invitations"
+name: Patch Invitation
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId": "clmr522bu0002rqodr52s4igk",
+    	"accountMemberId": "clmtk3l5d0000rqyoy98a2ovi",
+    	"id": "clmsepfzw00k5rqf2c7uqnshr",
+    	"status": "other"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53359c9591ec467b9c7c225091846b7c
+  - id: pair_613fb992d2724b8887dc5717556c903d
+    name: onvo-account-id
+    value: clmr522bu0002rqodr52s4igk
+    description: ""
+    disabled: false
+  - id: pair_3bf908e3462d4a17b6537b9f34a126ae
+    name: onvo-account-mode
+    value: test
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc0FkbWluIjpmYWxzZSwiaHRTZWNyZXQiOiIkYXJnb24yaWQkdj0xOSRtPTY1NTM2LHQ9MyxwPTQkb2pOSlBORVpBSEsyK0FxZ2YzU2ZaUSRmUVUrYmdWeTJrcm4yR3RKTWlYZ2dEVTN2RE1kVkJ3TVNtRnZlZVZSK2hBIiwic3ViIjoiY2xtcjUyMjcyMDAwMHJxb2RmaG5ybjI4bCIsImVtYWlsIjoiY2hhci1pbnZpdGUxQG1haWxpbmF0b3IuY29tIiwiaWF0IjoxNjk1MzIzNzk2LCJleHAiOjE2OTUzMzA5OTZ9.41xNe_WWvY_gPm5yYZcWuGkyKXFsRfcuG-3JvpHRnXc
+metaSortKey: -1692727100825.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

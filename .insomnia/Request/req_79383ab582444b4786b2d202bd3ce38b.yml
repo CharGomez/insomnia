@@ -1,0 +1,21 @@
+_id: req_79383ab582444b4786b2d202bd3ce38b
+type: Request
+parentId: fld_2f1d273e54fe4687b66d4442211ca9d0
+modified: 1692847685999
+created: 1691111946735
+url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_D-zen7Ag6wYvFhXSvx39Oe0auas"
+name: Checkout Session Sinpe
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691111965870.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
