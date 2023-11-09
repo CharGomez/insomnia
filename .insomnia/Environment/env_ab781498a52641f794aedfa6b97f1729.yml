@@ -1,11 +1,11 @@
 _id: env_ab781498a52641f794aedfa6b97f1729
 type: Environment
 parentId: env_c42564800c287bc0bcc23994acc770d37b17de0e
-modified: 1667668508507
+modified: 1695926505349
 created: 1663022663968
 name: Develop
 data:
-  baseUrl: http://api.dev.onvopay.com
+  baseUrl: https://api.dev.onvopay.com
 dataPropertyOrder:
   "&":
     - baseUrl

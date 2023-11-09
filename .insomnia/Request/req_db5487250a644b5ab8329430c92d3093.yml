@@ -1,9 +1,9 @@
 _id: req_db5487250a644b5ab8329430c92d3093
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1695402667540
+modified: 1698289776757
 created: 1688921481970
-url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_590R4JxATUQT7QWkovRWg7Dtu8g"
+url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_Yg7EoX6ZYSUScEKrsIa2OYqSTUU"
 name: Checkout Session Sinpe
 description: ""
 method: GET

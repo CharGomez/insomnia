@@ -1,9 +1,9 @@
-_id: req_79383ab582444b4786b2d202bd3ce38b
+_id: req_30b2d065d037462bb3f3914a52b89949
 type: Request
-parentId: fld_2f1d273e54fe4687b66d4442211ca9d0
-modified: 1696564894156
-created: 1691111946735
-url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_590R4JxATUQT7QWkovRWg7Dtu8g"
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1699486751573
+created: 1698456794670
+url: "{{ _.baseUrl }}/v1/checkout/sessions/link/test_Yg7EoX6ZYSUScEKrsIa2OYqSTUU"
 name: Checkout Session Sinpe
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1691111965870.75
+metaSortKey: -1697473145007
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

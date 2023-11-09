@@ -1,0 +1,34 @@
+_id: req_860974698b9a46a297108e199350f26a
+type: Request
+parentId: fld_b2ff73246d89461fafd76f3009a1e758
+modified: 1696983203441
+created: 1696983191308
+url: "{{ _.baseUrl }}/v1/subscriptions/clnkta9dt000brq31is072kn9"
+name: Get Subscription
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_af812d1c9cfa4000b5522fc767a132e2
+  - id: pair_a0d5ffb2483f43ce8cddef23a0e8fb8e
+    name: Onvo-Account-Id
+    value: clau49ahf39444fie189obwn0
+    description: ""
+  - id: pair_976b0fde5c8542b88dc33445193aaf0f
+    name: Onvo-Account-Mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRHWnc3V0VicUZNRkpHV0xjZ0pQQXdRJDZCZmlIdzRmMnJHd1d6SVJXR01aWnYzTU5Ua1JSU01mZHBIcVlnNzlDM1UiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5Njk3ODk0NiwiZXhwIjoxNjk2OTg2MTQ2fQ.VRfxv44OxvcCvLfXaVHDgo6olqVjlxsQ7X5yX-hkDV8
+metaSortKey: -1696972064314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_e87bca92260645bab3274770fabd7876
+type: Request
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1698644091628
+created: 1698618228855
+url: https://46ea-190-113-115-44.ngrok-free.app/v1/zunify/webhook
+name: Tunnel Webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"transactionId": "asdasd-234234",
+    	"date": "22-07-2023",
+    	"chargeCode": "7e35dc3c-76e5-11ee-bceb-02c3d4579803",
+    	"amount": 200000,
+    	"discount": 0,
+    	"currency": "CRC",
+    	"businessCode": "ONVOPAY47652"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_28d628cb50b4405c9dabbde67efdc4cb
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_d6c9f93ee5de4deebe47697e33ef532f
+  - id: pair_162ef4d5271d4ee585a9f788136077d3
+    name: authorization
+    value: Basic
+      19385d699e62ce86cd1e6b5f880f8e8918ad71b6a3035470b9cb1cd2c8e2bc60583122396bce
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1698618228855
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

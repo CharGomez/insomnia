@@ -1,0 +1,47 @@
+_id: req_a52e570ffca441718990437dbc18cee7
+type: Request
+parentId: fld_3bed54e9a6634962ae85c44a58ed6710
+modified: 1699508876840
+created: 1698966866801
+url: https://right.infor.net/inetws/inetws.php
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <soap:Envelope
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:typens="urn:inetws">
+        <soap:Header>
+    			<wsse:UsernameToken xmlns:wsu="https://schemas.xmlsoap.org/ws/2002/07/utility">
+        		<wsse:Username>wsonvogt</wsse:Username>
+        		<wsse:Password>d351r9ut</wsse:Password>
+    		</wsse:UsernameToken>
+        </soap:Header>
+        <soap:Body>
+            <typens:estudio_persona>
+                <codigo_persona>223340</codigo_persona>
+            </typens:estudio_persona>
+        </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_8b6d0766cd0b4db6b3e6b3d1c1816e68
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_a4222bd45c5c43219d1d14688151900e
+authentication: {}
+metaSortKey: -1698966866801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

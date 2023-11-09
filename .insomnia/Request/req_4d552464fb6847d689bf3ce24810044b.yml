@@ -1,7 +1,7 @@
 _id: req_4d552464fb6847d689bf3ce24810044b
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1695316257608
+modified: 1695926599782
 created: 1663021729349
 url: "{{ _.baseUrl }}/authentication/jwt/login"
 name: LOGIN
@@ -11,15 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "char-invite1@mailinator.com",
-    	"password": "Test123456!"
+    	"email": "pablo@onvopay.com",
+    	"password": "0vejas.2015"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_507ab1c856934b568e12e47a2c435be4
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRlL1pCVlJKNVAwM2QxVUhRZkUzcTZBJGRTL0xJZWUxdnlKdG5LMDArOUp5c3pFeHlabjliZkV3ZVVmYjJuTEZnaGMiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NTkyNjUxMCwiZXhwIjoxNjk2NTMxMzEwfQ.bXpdZW24mp5bOPjqwGJg-uBDgB-XSMRFOdwvG07no2M
+  disabled: true
 metaSortKey: -1663021729349
 isPrivate: false
 settingStoreCookies: true

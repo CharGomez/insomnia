@@ -1,7 +1,7 @@
 _id: req_a79ba48c9ca847a886fb6bf59c53c976
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1695399600423
+modified: 1698351306874
 created: 1682627324956
 url: "{{ _.baseUrl }}/v1/payment-intents"
 name: 1. Create PI
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-      "amount": 500,
-      "currency": "CRC",
-      "customerId": "clmut4rry0008rqmtcwb2pik5",
-      "description": "test para nacion"
+      "amount": 1000,
+      "currency": "GTQ",
+      "customerId": "clo7m1a3l000hlc2jyt4d79rv",
+      "description": "ONVO - test para visanet"
     }
 parameters: []
 headers:
@@ -22,7 +22,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_secret_key__o3x6C-fqsXrUseO8uu2dvDhtjJBlWQuOa1ioAvSTY2Y-rqXQt1OutgKAxlcMNr-QZzn1QEaKP3j9wed4VX4fQ
+  token: onvo_live_secret_key_3JFKGv0wjK38v7M1oCX7rJ6Pz32JXd_xqPgeBIg5Gs1EToM1fxOUUsry74LDr5Aa7RjwoWWbmbxgUi9h-WjJPw
 metaSortKey: -1682627324956
 isPrivate: false
 settingStoreCookies: true

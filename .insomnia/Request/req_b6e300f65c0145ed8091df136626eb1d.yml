@@ -1,0 +1,27 @@
+_id: req_b6e300f65c0145ed8091df136626eb1d
+type: Request
+parentId: fld_3bed54e9a6634962ae85c44a58ed6710
+modified: 1699125124505
+created: 1699125100196
+url: "{{ _.baseUrl }}/credid/test"
+name: Get Infornet
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_af812d1c9cfa4000b5522fc767a132e2
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRHWnc3V0VicUZNRkpHV0xjZ0pQQXdRJDZCZmlIdzRmMnJHd1d6SVJXR01aWnYzTU5Ua1JSU01mZHBIcVlnNzlDM1UiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5Njk3ODk0NiwiZXhwIjoxNjk2OTg2MTQ2fQ.VRfxv44OxvcCvLfXaVHDgo6olqVjlxsQ7X5yX-hkDV8
+  disabled: true
+metaSortKey: -1698966866901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

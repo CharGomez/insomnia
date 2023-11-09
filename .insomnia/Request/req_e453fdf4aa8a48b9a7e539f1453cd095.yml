@@ -1,0 +1,38 @@
+_id: req_e453fdf4aa8a48b9a7e539f1453cd095
+type: Request
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1699380290558
+created: 1697473144707
+url: https://payment-gateway.dev.zunify.co/gateway/payments
+name: Simulate Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"chargeCode": "f0f4c47c-7d97-11ee-a662-02c3d4579803"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4aaa5e0eb36c4a9b919ab2203023e20b
+  - id: pair_984308f53eb44c30979417ad9a7bcb50
+    name: Authorization
+    value: Basic fda08893265711eebceb02c3d4579803
+    description: ""
+authentication:
+  type: apikey
+  disabled: true
+  key: Basic
+  value: fda08893265711eebceb02c3d4579803
+  addTo: header
+metaSortKey: -1697473144707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

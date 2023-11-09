@@ -1,7 +1,7 @@
 _id: req_211184f34a44489daba2cfebd5ce74bc
 type: Request
 parentId: fld_b330cc9a2a1248ba88838ea783569d98
-modified: 1695399572937
+modified: 1698350493227
 created: 1682627466144
 url: "{{ _.baseUrl }}/v1/customers"
 name: 0. Create Client
@@ -20,7 +20,7 @@ body:
         "state": "Cartago"
       },
       "description": "Carlos Gomez",
-      "email": "char+104@onvopay.com",
+      "email": "char+200@onvopay.com",
       "name": "Carlos Gomez",
       "phone": "+50672940269",
       "shipping": {
@@ -42,7 +42,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: onvo_test_secret_key__o3x6C-fqsXrUseO8uu2dvDhtjJBlWQuOa1ioAvSTY2Y-rqXQt1OutgKAxlcMNr-QZzn1QEaKP3j9wed4VX4fQ
+  token: onvo_live_secret_key_3JFKGv0wjK38v7M1oCX7rJ6Pz32JXd_xqPgeBIg5Gs1EToM1fxOUUsry74LDr5Aa7RjwoWWbmbxgUi9h-WjJPw
 metaSortKey: -1682627466144
 isPrivate: false
 settingStoreCookies: true

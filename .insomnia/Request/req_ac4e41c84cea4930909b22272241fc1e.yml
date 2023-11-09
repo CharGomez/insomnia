@@ -1,0 +1,29 @@
+_id: req_ac4e41c84cea4930909b22272241fc1e
+type: Request
+parentId: fld_b2ff73246d89461fafd76f3009a1e758
+modified: 1696969799928
+created: 1696969790751
+url: "{{ _.baseUrl }}/v1/invoices/manual-retry"
+name: Trigger Manual INVOICE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"invoiceId": "clkae8tba000trqvkisupw2nr"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60d2d7f35d0744108855d6663e3f88d2
+authentication: {}
+metaSortKey: -1696969739787
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

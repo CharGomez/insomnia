@@ -1,0 +1,45 @@
+_id: req_662a42b3b1a24679a69b25eff52c422c
+type: Request
+parentId: fld_b2ff73246d89461fafd76f3009a1e758
+modified: 1697508988287
+created: 1696972097964
+url: "{{ _.baseUrl }}/v1/subscriptions/clntoo89j0005rq97on05eez7/items"
+name: Add Item
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Items extra sub clntoo89j0005rq97on05eez7",
+    	"amount": 10000,
+    	"quantity": 1,
+    	"currency": "CRC"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c531fc4762284bb888b0fac4e5befd75
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_af812d1c9cfa4000b5522fc767a132e2
+  - id: pair_a0d5ffb2483f43ce8cddef23a0e8fb8e
+    name: Onvo-Account-Id
+    value: cl7gorblg806201l6w21w4tvw
+    description: ""
+  - id: pair_976b0fde5c8542b88dc33445193aaf0f
+    name: Onvo-Account-Mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRJcVY3Znd6YXZkNmxvcUtlSGIrNVJ3JFBiMUN2c1VzbWxHS2ZGK0tCeTdHN3dNV3U4YWs3aE54eWxabHFlRzU2U0EiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NzUwODI1NiwiZXhwIjoxNjk3NTE1NDU2fQ.Zj0SenM8c13LM3lhLM-Cp_PxyNJIg62Qj-qY6U4OoUA
+metaSortKey: -1696972097964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

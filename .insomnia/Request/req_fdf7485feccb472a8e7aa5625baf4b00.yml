@@ -1,0 +1,35 @@
+_id: req_fdf7485feccb472a8e7aa5625baf4b00
+type: Request
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1699380296734
+created: 1697500855289
+url: https://payment-gateway.dev.zunify.co/gateway/charges/f0f4c47c-7d97-11ee-a662-02c3d4579803
+name: Get Charge
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_5fa3d6cc60b9477c8c3221fce17adb5f
+    disabled: true
+  - id: pair_43c1d2425a6d49a39f7653c0a470f5a1
+    name: Authorization
+    value: Basic fda08893265711eebceb02c3d4579803
+    description: ""
+    disabled: false
+authentication:
+  type: apikey
+  disabled: true
+  key: Basic
+  value: 6d4b01d0265a11eebceb02c3d4579803
+  addTo: header
+metaSortKey: -1697473144607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

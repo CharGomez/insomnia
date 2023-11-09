@@ -1,0 +1,71 @@
+_id: req_7989918afd5b4fd68fc067a5cceb52df
+type: Request
+parentId: fld_b2ff73246d89461fafd76f3009a1e758
+modified: 1696972063164
+created: 1696971963364
+url: "{{ _.baseUrl }}/v1/subscriptions/loop"
+name: Create Loop
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "customerId": "clnkt97tb0001rq31m5ouq3da",
+        "notes": "Loop para probar extras",
+        "items": [
+            {
+                "productId": "clgh4wz570001if4so5a9f712",
+                "priceId": "clgh4wzpi0003if4s1oxyd6t0",
+                "quantity": 1
+            }
+        ],
+        "currency": "CRC",
+        "trial": {
+            "hasTrialDays": false,
+            "trialDays": 0
+        },
+        "lapse": {},
+        "paymentMethod": {
+            "mode": "create-new",
+            "type": "card",
+            "card": {
+                "holderName": "Carlos Gomez 424242",
+                "number": "4242424242424242",
+                "expMonth": 11,
+                "expYear": 2024,
+                "cvv": "123"
+            }
+        },
+        "recurring": {
+            "interval": "week",
+            "intervalCount": 1
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c7b4be728271480295ee4e14e70e46cd
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_148f3fce289b4810828ebbea550d9e8b
+  - id: pair_03d65832fb4c43309521a23eb3da4ff0
+    name: Onvo-Account-Id
+    value: clau49ahf39444fie189obwn0
+    description: ""
+  - id: pair_eefb27db6067498b82897092a493e262
+    name: Onvo-Account-Mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCROYzVxL29Ia2FiRlNpclZLZEtyNk1nJHFoSzVCYUhSOUpNZUoxc0owRTA0c21tSnB0bFZoUGhCQW5iUW5XYXRRc3ciLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5Njk3MTY4NywiZXhwIjoxNjk2OTc4ODg3fQ.9Ntw2rOsL7vEVFpz3Lik1O1dXG8ERdA8so2fm0KL5BY
+metaSortKey: -1696971963364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

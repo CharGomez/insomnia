@@ -1,0 +1,42 @@
+_id: req_ee046f42c9f54c3a8257b82be6c680d1
+type: Request
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1699308185807
+created: 1697473208837
+url: https://payment-gateway.dev.zunify.co/gateway/charges
+name: Create Charge
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount":200000,
+    	"currency":"CRC",
+    	"userPhoneNumber":"11223344",
+    	"pin":"1234",
+    	"businessCode":"ONVOPAY47652"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d275ccb361524bf89b197c7a48412639
+  - id: pair_5563af8be199436e87c576ada9724b66
+    name: Authorization
+    value: Basic fda08893265711eebceb02c3d4579803
+    description: ""
+authentication:
+  type: apikey
+  disabled: true
+  key: Basic
+  value: fda08893265711eebceb02c3d4579803
+  addTo: header
+metaSortKey: -1697473144757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

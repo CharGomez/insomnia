@@ -1,0 +1,38 @@
+_id: req_f1d152b69c4749eab500751f66782b01
+type: Request
+parentId: fld_7d23d9088f784e94bebaf217c47b8a70
+modified: 1695940750274
+created: 1695940688508
+url: https://api.testing.onvopay.com/v1/webhooks
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"url":"https://www.test.com","description":"test"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.1.0
+    id: pair_7cc0e01666bf4343a3950632e6abafd2
+  - id: pair_faac9c9e124d4caba4e631fb7848b28c
+    name: Onvo-Account-Id
+    value: clau49ahf39444fie189obwn0
+    description: ""
+  - id: pair_65a71ccd08334451a31831650a27f5c1
+    name: Onvo-Account-Mode
+    value: test
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCREK2NEcGFiODBYMmROZk55bTBUUHVBJFUwUzA4c3N1SjZBWnVXeTZKb1hvNTA0M0xla1FLemJ0Um5lWW9MczF1YTQiLCJzdWIiOiJjbG4wamdqZDcwMTlqazAyamVyNnR0bDV4IiwiZW1haWwiOiJlZHdhcmQrMTJAb252b3BheS5jb20iLCJpYXQiOjE2OTU5NDA1ODQsImV4cCI6MTY5NTk0Nzc4NH0.XTW2LJExyQn4Z8NlfPSA7RtqaSjLG4B94bqgPXeNhJs
+metaSortKey: -1695940688509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

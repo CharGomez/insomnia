@@ -1,0 +1,28 @@
+_id: req_7ae7283a2ec440179d12651c9fb81130
+type: Request
+parentId: wrk_888f2fdfea904adba66f4ea21454a336
+modified: 1695926655101
+created: 1695926542703
+url: "{{ _.baseUrl }}/authentication/jwt/refresh"
+name: REFRESH TOKEN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_507ab1c856934b568e12e47a2c435be4
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodFNlY3JldCI6IiRhcmdvbjJpZCR2PTE5JG09NjU1MzYsdD0zLHA9NCRiMFdiRVAxeXNKUjY0Ums5NXcyY0VBJEdYRGgxeHRhWWRMcm5qUHpySWNCMmRvTnBnWGVBYmxldVIyOFkrdmRjVUkiLCJzdWIiOiJjbGF1NDlhZnQzOTE0NGZpZWViZnIyN2V1IiwiZW1haWwiOiJwYWJsb0BvbnZvcGF5LmNvbSIsImlhdCI6MTY5NTkyNjYzMywiZXhwIjoxNjk2NTMxNDMzfQ.aMOGlfOQFOhneROpNMvnYJSVlZZE6qsXWtK--ZnlXsk
+metaSortKey: -1662966854530.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

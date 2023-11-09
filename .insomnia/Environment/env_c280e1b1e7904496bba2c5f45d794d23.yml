@@ -1,0 +1,14 @@
+_id: env_c280e1b1e7904496bba2c5f45d794d23
+type: Environment
+parentId: env_c42564800c287bc0bcc23994acc770d37b17de0e
+modified: 1699466016262
+created: 1699465964591
+name: Staging
+data:
+  baseUrl: https://api.staging.onvopay.com
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: "#af5c0e"
+isPrivate: false
+metaSortKey: 1699465961356

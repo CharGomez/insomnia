@@ -1,0 +1,35 @@
+_id: req_3addfefd60714bb9b8b96ef00eec9f63
+type: Request
+parentId: fld_559eeb83a8194168a3781ee431df7e28
+modified: 1699465868981
+created: 1697220833388
+url: https://payment-gateway.dev.zunify.co/gateway/business
+name: Get Business
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+    id: pair_5fa3d6cc60b9477c8c3221fce17adb5f
+    disabled: true
+  - id: pair_43c1d2425a6d49a39f7653c0a470f5a1
+    name: Authorization
+    value: Basic 6d4b01d0265a11eebceb02c3d4579803
+    description: ""
+    disabled: false
+authentication:
+  type: apikey
+  disabled: true
+  key: Basic
+  value: 6d4b01d0265a11eebceb02c3d4579803
+  addTo: header
+metaSortKey: -1697473144807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

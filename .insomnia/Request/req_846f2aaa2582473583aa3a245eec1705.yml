@@ -1,9 +1,9 @@
 _id: req_846f2aaa2582473583aa3a245eec1705
 type: Request
 parentId: wrk_888f2fdfea904adba66f4ea21454a336
-modified: 1692749446141
+modified: 1698724660081
 created: 1689798087089
-url: https://credid.net/wstest/api/Reporte?cedula=602930167
+url: https://credid.net/wstest/api/Reporte?cedula=304860802
 name: Credid
 description: ""
 method: GET
